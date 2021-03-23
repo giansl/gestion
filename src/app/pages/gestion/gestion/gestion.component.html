@@ -10,15 +10,13 @@
             <span style="color:gray">UGESTOR ASIGNADO: 44204485 - ESPINOZA LAZARO - JUANA VICTORIA</span>
         </div>
     </div>
-    <div class="row" style="border: 2px solid #3f51b5;padding: 5px;border-radius: 10px;">
+
+    <div class="row">
         <div class="col-2">
-            <img src="../../../../assets/fotoxp.jpg" alt="" width="150" class="rounded mx-auto d-block">
-        </div>
-        <div class="col-10">
-            <div class="row">
-                <div class="col-2">
+            <div class="row" style="border: 2px solid #3f51b5;padding: 5px;border-radius: 10px;margin-right: 1px;">
+                <div class="col-12">
                     <mat-form-field appearance="fill" class="example-full-width"> 
-                        <mat-label>Cartera</mat-label>
+                        <mat-label>Detalle de la Gestion</mat-label>
                         <mat-select >
                           <mat-option value="option1">Interback</mat-option>
                           <mat-option value="option2" disabled>Interback</mat-option>
@@ -26,101 +24,243 @@
                         </mat-select>
                       </mat-form-field>
                 </div>
-                <div class="col-4">
+                <div class="col-12">
                     <mat-form-field class="example-form-field">
-                        <mat-label>Nombre Cliente</mat-label>
+                        <mat-label>Observaicion</mat-label>
                         <input matInput type="text" >
                     </mat-form-field>
                 </div>
-                <div class="col-3">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>E-Mail</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
+                <div class="col-12">
+                    <mat-form-field appearance="fill" class="example-full-width"> 
+                        <mat-label>Indicador de la Gestion</mat-label>
+                        <mat-select >
+                          <mat-option value="option1">Interback</mat-option>
+                          <mat-option value="option2" disabled>Interback</mat-option>
+                          <mat-option value="option3">Interback</mat-option>
+                        </mat-select>
+                      </mat-form-field>
                 </div>
-                <div class="col-3">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Cent. Laboral</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
+                <div class="col-12">
+                    <mat-radio-group name="flavors">
+                        <mat-radio-button value="chocolate" checked="true">Propuesta</mat-radio-button>
+                        <mat-radio-button value="vanilla">Campo</mat-radio-button>
+                        <mat-radio-button value="strawberry">Call</mat-radio-button>
+                      </mat-radio-group>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Referencia 1</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
+                <div class="col-12">
+                    <br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Agenda</button>
                 </div>
-                <div class="col-3">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Referencia 2</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Conyuge</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Aval</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Rep. Legal</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Dni</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>C. Int</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Tipo C</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Situac.</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Edad</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
-                </div>
-                <div class="col-2">
-                    <mat-form-field class="example-form-field">
-                        <mat-label>Ing.</mat-label>
-                        <input matInput type="text" >
-                    </mat-form-field>
+                <div class="col-12">
+                    <br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Guardar</button>
                 </div>
             </div>
         </div>
+        <div class="col-10">
+
+            <div class="row" style="border: 2px solid #3f51b5;padding: 5px;border-radius: 10px;">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-2">
+                            <mat-form-field appearance="fill" class="example-full-width"> 
+                                <mat-label>Cartera</mat-label>
+                                <mat-select >
+                                  <mat-option value="option1">Interback</mat-option>
+                                  <mat-option value="option2" disabled>Interback</mat-option>
+                                  <mat-option value="option3">Interback</mat-option>
+                                </mat-select>
+                              </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Nombre Cliente</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>E-Mail</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Cent. Laboral</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Referencia 1</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Referencia 2</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Conyuge</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Aval</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Rep. Legal</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Dni</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>C. Int</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Tipo C</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Situac.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Edad</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-2">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Ing.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <button mat-raised-button color="primary" style="width: 100%;">Buscar</button>
+                    <br><br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Propuesta</button>
+                    <br><br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Campo</button>
+                    <br><br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Grabar</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="border: 2px solid #3f51b5;padding: 5px;border-radius: 10px;">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Total S/.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Capital S/.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Deuda Total S/.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-3">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Campaña S/.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Total US$/.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Capital US$.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4">
+                            <mat-form-field class="example-form-field">
+                                <mat-label>Campaña US$.</mat-label>
+                                <input matInput type="text" >
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col">
+                            <button mat-raised-button color="primary" style="width: 100%;">Pagos</button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <button mat-raised-button color="primary" style="width: 100%;">Compro</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col">
+                            <button mat-raised-button color="primary" style="width: 100%;">Informacion A.</button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <button mat-raised-button color="primary" style="width: 100%;">Deuda</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    
+                </div>
+            </div>
+
+        </div>
+        
     </div>
+
     <hr>
     <div class="row">
         
-        <div class="col-10">
+        <div class="col-9">
 
         <mat-tab-group mat-align-tabs="start" [color]="'primary'" [backgroundColor]="'primary'">
             <mat-tab label="Direcciones">
@@ -244,136 +384,6 @@
                   <mat-paginator [length]="resultsLength" [pageSize]="30"></mat-paginator>
 
             </mat-tab>
-            <mat-tab label="Datos de la deuda">
-                <br>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-8">
-                            <div class="row">
-                                <div class="col-3">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Total S/.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                                <div class="col-3">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Capital S/.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                                <div class="col-3">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Deuda Total S/.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                                <div class="col-3">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Campaña S/.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Total US$/.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                                <div class="col-4">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Capital US$.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                                <div class="col-4">
-                                    <mat-form-field class="example-form-field">
-                                        <mat-label>Campaña US$.</mat-label>
-                                        <input matInput type="text" >
-                                    </mat-form-field>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-8">
-                                    <button mat-raised-button color="primary" style="width: 100%;">Pagos</button>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-8">
-                                    <button mat-raised-button color="primary" style="width: 100%;">Compro</button>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-8">
-                                    <button mat-raised-button color="primary" style="width: 100%;">Informacion Adicional</button>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="row">
-                                <div class="col-8">
-                                    <button mat-raised-button color="primary" style="width: 100%;">Deuda</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </mat-tab>
-            <mat-tab label="Gestiones realizadas">
-                <br>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-3">
-                            <mat-form-field appearance="fill" class="example-full-width"> 
-                                <mat-label>Detalle de la Gestion</mat-label>
-                                <mat-select >
-                                  <mat-option value="option1">Interback</mat-option>
-                                  <mat-option value="option2" disabled>Interback</mat-option>
-                                  <mat-option value="option3">Interback</mat-option>
-                                </mat-select>
-                              </mat-form-field>
-                        </div>
-                        <div class="col-4">
-                            <mat-form-field class="example-form-field">
-                                <mat-label>Observaicion</mat-label>
-                                <input matInput type="text" >
-                            </mat-form-field>
-                        </div>
-                        <div class="col-2">
-                            <button mat-raised-button color="primary" style="width: 100%;">Agenda</button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <mat-form-field appearance="fill" class="example-full-width"> 
-                                <mat-label>Indicador de la Gestion</mat-label>
-                                <mat-select >
-                                  <mat-option value="option1">Interback</mat-option>
-                                  <mat-option value="option2" disabled>Interback</mat-option>
-                                  <mat-option value="option3">Interback</mat-option>
-                                </mat-select>
-                              </mat-form-field>
-                        </div>
-                        <div class="col-4">
-                            <mat-radio-group name="flavors">
-                                <mat-radio-button value="chocolate" checked="true">Propuesta</mat-radio-button>
-                                <mat-radio-button value="vanilla">Campo</mat-radio-button>
-                                <mat-radio-button value="strawberry">Call</mat-radio-button>
-                              </mat-radio-group>
-                        </div>
-                        <div class="col-2">
-                            <button mat-raised-button color="primary" style="width: 100%;">Guardar</button>
-                        </div>
-                    </div>
-                </div>
-
-            </mat-tab>
             <mat-tab label="Gestiones telefonicas">
 
 
@@ -435,14 +445,50 @@
             <mat-tab label="Gestiones de campo">Datos de la deuda</mat-tab>
           </mat-tab-group>
         </div>
-        <div class="col-2">
-            <button mat-raised-button color="primary" style="width: 100%;">Buscar</button>
-            <br><br>
-            <button mat-raised-button color="primary" style="width: 100%;">Propuesta</button>
-            <br><br>
-            <button mat-raised-button color="primary" style="width: 100%;">Campo</button>
-            <br><br>
-            <button mat-raised-button color="primary" style="width: 100%;">Grabar</button>
+        <div class="col-3">
+            <div class="row">
+                <div class="col-12">
+                    <mat-form-field appearance="fill" class="example-full-width"> 
+                        <mat-label>Detalle de la Gestion</mat-label>
+                        <mat-select >
+                          <mat-option value="option1">Interback</mat-option>
+                          <mat-option value="option2" disabled>Interback</mat-option>
+                          <mat-option value="option3">Interback</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </div>
+                <div class="col-12">
+                    <mat-form-field class="example-form-field">
+                        <mat-label>Observaicion</mat-label>
+                        <input matInput type="text" >
+                    </mat-form-field>
+                </div>
+                <div class="col-12">
+                    <mat-form-field appearance="fill" class="example-full-width"> 
+                        <mat-label>Indicador de la Gestion</mat-label>
+                        <mat-select >
+                          <mat-option value="option1">Interback</mat-option>
+                          <mat-option value="option2" disabled>Interback</mat-option>
+                          <mat-option value="option3">Interback</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </div>
+                <div class="col-12">
+                    <mat-radio-group name="flavors">
+                        <mat-radio-button value="chocolate" checked="true">Propuesta</mat-radio-button>
+                        <mat-radio-button value="vanilla">Campo</mat-radio-button>
+                        <mat-radio-button value="strawberry">Call</mat-radio-button>
+                      </mat-radio-group>
+                </div>
+                <div class="col-12">
+                    <br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Agenda</button>
+                </div>
+                <div class="col-12">
+                    <br>
+                    <button mat-raised-button color="primary" style="width: 100%;">Guardar</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
